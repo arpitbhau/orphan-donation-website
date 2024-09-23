@@ -1,0 +1,66 @@
+<!-- Jai Shree Ram -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <title>Orphanage Donation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-[#fff]">
+    <!-- Donation Section -->
+    <section id="donation" class="relative flex flex-col justify-center items-center h-screen p-4">
+        <video class="absolute top-0 left-0 w-full h-full object-cover" src="https://rr2---sn-npoeenee.googlevideo.com/videoplayback?expire=1727116838&ei=xmHxZoC0Lfzx7OsP4c6mmAs&ip=37.218.217.123&id=o-ALqcmIm0a1TZ9j-6TdJB7AkHQ2iJFpPCgLgrzyK65a81&itag=135&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=45311105&dur=390.040&lmt=1542168455301698&keepalive=yes&fexp=51299152&c=IOS&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhAPnUdj24bPhQvf2n4gE_Ij24IIMhBLxY-Q-Qlr0ew7fqAiAtlzWw93U6_CXgxmVdqqBevrcG2RJUZPaGka_gGMlWTg%3D%3D&title=THIS+IS+INDIA+|+Orphans+In+Need&rm=sn-p5qe7l7z&rrc=104,80&req_id=b8324168daeaa3ee&ipbypass=yes&redirect_counter=2&cm2rm=sn-ab5es77z&cms_redirect=yes&cmsv=e&mh=0J&mip=2402:8100:3144:c8d3:a19e:ba57:3263:6f3c&mm=34&mn=sn-npoeenee&ms=ltu&mt=1727094882&mv=u&mvi=2&pl=48&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=ABPmVW0wRAIgJ3VJ3Psaz8HBEysF89j7qnkVV3QlAM7trvEERlgnlZUCIEETvnHG_-lAdYbjAdtn1Pyw9dAuZ-NRE1ch4of32mA7" muted loop autoplay></video>
+        <div class="absolute top-0 left-0 w-full h-full bg-[rgba(249,232,208,0.563)] opacity-50"></div>
+        <div class="relative text-center flex flex-col justify-center items-center">
+            <h1 class="text-4xl sm:text-5xl font-bold mb-6 tracking-tight" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Help Us Make a Difference</h1>
+            <p class="text-lg sm:text-xl mb-6" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Your donation will go a long way in supporting the orphanage. Scan the QR code to donate.</p>
+            
+            <div class="flex justify-center items-center w-64 h-64 sm:w-72 sm:h-72 border-2 border-[#2F3043] bg-white rounded-lg mb-4">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=Example" alt="QR Code to Donate" class="w-3/4 h-auto">
+            </div>
+            
+            <p class="text-base sm:text-lg text-[#fff]" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">
+                Having problem with the QR? 
+                <a href="#" class="underline text-[rgba(0,0,50,0.9)] font-medium" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Use Razorpay as an option</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-[#f3f3f3] py-16 px-4 text-[#2F3043]">
+        <div class="max-w-2xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-8" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Contact Us / Feedback</h2>
+            <form class="space-y-6 text-left" action="https://formsubmit.co/4a8a917dde8053b45c01833a6a813afe" method="POST">
+                <div class="space-y-2">
+                    <label for="name" class="block text-lg font-medium">Name</label>
+                    <input type="text" name="name" id="name" required class="w-full shadow-lg rounded-xl p-3 border border-[#F9E8D0] focus:outline-none focus:ring-2 focus:ring-[#2F3043]">
+                </div>
+                
+                <div class="space-y-2">
+                    <label for="email" class="block text-lg font-medium">Email</label>
+                    <input type="email" name="email" id="email" required class="w-full shadow-lg rounded-xl p-3 border border-[#F9E8D0] focus:outline-none focus:ring-2 focus:ring-[#2F3043]">
+                </div>
+                
+                <div class="space-y-2">
+                    <label for="subject" class="block text-lg font-medium">Subject</label>
+                    <input type="text" name="subject" id="subject" required class="w-full shadow-lg rounded-xl p-3 border border-[#F9E8D0] focus:outline-none focus:ring-2 focus:ring-[#2F3043]">
+                </div>
+                
+                <div class="space-y-2">
+                    <label for="desc" class="block text-lg font-medium">Description</label>
+                    <textarea id="desc" name="description" rows="5" required class="w-full shadow-lg rounded-xl p-3 border border-[#F9E8D0] focus:outline-none focus:ring-2 focus:ring-[#2F3043] resize-none"></textarea>
+                </div>
+                
+                <button type="submit" class="formSubmitionBtn block w-full py-3 text-white bg-[#2F3043] rounded-xl hover:bg-gray-700 transition duration-300">Send Feedback</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/bundled/lenis.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
